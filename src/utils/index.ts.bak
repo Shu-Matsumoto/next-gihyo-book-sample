@@ -1,3 +1,5 @@
+// fetcher関数
+// 機能:fetchをラップして使いやすくする関数
 export const fetcher = async (
   resource: RequestInfo,
   init?: RequestInit,
